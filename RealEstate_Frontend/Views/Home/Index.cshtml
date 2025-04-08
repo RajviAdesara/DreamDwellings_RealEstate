@@ -1,0 +1,272 @@
+﻿@model RealEstate.Models.HomeModel
+
+<!-- Header Start -->
+<div class="container-fluid header bg-white p-0">
+    <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+        <div class="col-md-6 p-5 mt-lg-5">
+            <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Perfect Home</span> To Live With Your Family</h1>
+            <p class="animated fadeIn mb-4 pb-2">
+                Finding the perfect home isn’t just about location—it’s about comfort, security, and a space that truly feels like yours.
+                Whether you're looking for a modern apartment, a family-friendly house, or a luxury villa, we bring you the best properties tailored
+                to your lifestyle. Our expert team is dedicated to helping you navigate the real estate market with ease, ensuring you find a home
+                that fits your dreams, budget, and future aspirations. Start your journey today and discover the perfect place to create lasting
+                memories.
+            </p>
+            <a class="btn btn-primary py-3 px-5 me-3 animated fadeIn" asp-controller="Property" asp-action="PropertyList">Get Started</a>
+        </div>
+        <div class="col-md-6 animated fadeIn">
+            <div class="owl-carousel header-carousel">
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="~/img/carousel-1.jpg" alt="">
+                </div>
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="~/img/carousel-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+<!-- Category Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="mb-3">Property Types</h1>
+            <p>Explore a variety of properties to find your perfect home.</p>
+        </div>
+        <div class="row g-4">
+            @foreach (var propertyType in Model.PropertyTypes)
+            {
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="@Url.Action("Index", "Home", new { propertyType = propertyType.PropertyType })">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                                <img class="img-fluid" src="~/img/icon-apartment.png" alt="Icon">
+                            </div>
+                            <h6>@propertyType.PropertyType</h6>
+                            <span>@propertyType.TotalCount Properties</span>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- Category End -->
+<!-- Property List Start -->
+<div class="container-fluid py-2">
+    <div class="container">
+        <div class="row g-0 gx-5 align-items-end">
+            <div class="col-lg-6">
+                <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+                    <h1 class="mb-3">Recent Pickups</h1>
+                    <p>Discover the latest properties handpicked for you. Find your dream home with our top selections, tailored to your needs.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                    <li class="nav-item me-2">
+                        <a class="btn btn-outline-primary" href="@Url.Action("PropertyList", "Property")">View All</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tab-content">
+            <div id="tab-1" class="tab-pane fade show p-0 active">
+                <div class="row g-4">
+                    @if (Model.RecentProperties != null && Model.RecentProperties.Count() >= 6)
+                    {
+                        @foreach (var property in Model.RecentProperties.Take(6))
+                        {
+                            <div class="col-lg-4 col-md-6">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <img src="@property.ImagePath" alt="@property.ImageName" style="width: 430px ; height: 272px; object-fit: cover;" />
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">@property.Category</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">@property.PropertyType</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">&#8377; @String.Format("{0:N0}", property.Price)</h5>
+                                        <a class="d-block h5 mb-2" href="">@property.Title</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>@property.Location</p>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>@property.Area Sqft</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>@property.Bedrooms Bed</small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>@property.Bathrooms Bath</small>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+
+                    else
+                    {
+                        <div class="col-12 text-center">
+                            <p>No recent properties available.</p>
+                        </div>
+                    }
+                </div>
+
+                <div class="col-12 text-center mt-4">
+                    <a class="btn btn-primary py-3 px-5" asp-controller="Property" asp-action="AllProperty">Browse More Properties</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Property List End -->
+<!-- Call to Action Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="img-fluid rounded w-100" src="~/img/call-to-action.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Contact With Our Certified Agent</h1>
+                            <p>
+                                Our team of experienced real estate professionals is committed to guiding you through every step of finding your dream
+                                home. Whether you're looking for a cozy apartment, a spacious family house, or a luxury villa, we ensure a seamless and
+                                stress-free experience. Let us help you discover the perfect property that matches your lifestyle and preferences.
+                            </p>
+                        </div>
+                        <a href="tel:+1234567890" class="btn btn-primary py-3 px-4 me-2">
+                            <i class="fa fa-phone-alt me-2"></i>Make A Call
+                        </a>
+                        <button class="btn btn-dark py-3 px-4" id="openModalButton">
+                            <i class="fa fa-calendar-alt me-2"></i>Get Appointment
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--  Appointment Modal -->
+<div id="appointmentModal" class="modal fade" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Select Appointment Date</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <label for="appointmentDate" class="form-label">Choose Date:</label>
+                <input type="date" id="appointmentDate" class="form-control text-center" required>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" onclick="sendAppointment()">Confirm Appointment</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get the current URL
+        const currentUrl = window.location.href;
+
+        // Remove 'active' class from all tabs
+        document.querySelectorAll('#propertyTabs .btn').forEach(tab => tab.classList.remove('active'));
+
+        // Check the URL and activate the appropriate tab
+        if (currentUrl.includes("/PropertyList")) {
+            document.getElementById("tab-all").classList.add("active");
+        } else if (currentUrl.includes("category=Sell")) {
+            document.getElementById("tab-sell").classList.add("active");
+        } else if (currentUrl.includes("category=Rent")) {
+            document.getElementById("tab-rent").classList.add("active");
+        }
+    });
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let modalElement = document.getElementById("appointmentModal");
+        let modalInstance = new bootstrap.Modal(modalElement);
+
+        // When opening the modal
+        document.getElementById("openModalButton").addEventListener("click", function () {
+            // Set minimum date to today
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById("appointmentDate").min = today;
+            modalInstance.show();
+        });
+
+        // When closing the modal
+        document.getElementById("closeModalButton")?.addEventListener("click", function () {
+        modalInstance.hide();
+        });
+    });
+
+        function getCookie(name) {
+            let cookieArr = document.cookie.split(";");
+            for (let i = 0; i < cookieArr.length; i++) {
+                let cookiePair = cookieArr[i].split("=");
+                if (name === cookiePair[0].trim()) {
+                    return decodeURIComponent(cookiePair[1]);
+                }
+            }
+            return null;
+        }
+            function sendAppointment() {
+            let appointmentDateInput = document.getElementById("appointmentDate").value;
+            let userEmail = getCookie("Email");
+            let modalElement = document.getElementById("appointmentModal");
+            let modalInstance = bootstrap.Modal.getInstance(modalElement);
+
+            if (!userEmail) {
+                alert("User email not found. Please log in again.");
+                return;
+            }
+
+            if (!appointmentDateInput) {
+                alert("Please select an appointment date.");
+                return;
+            }
+
+            // Extract only the date (YYYY-MM-DD)
+            let appointmentDate = new Date(appointmentDateInput).toISOString().split("T")[0];
+
+            let appointmentData = {
+                UserEmail: userEmail,
+                AppointmentDate: appointmentDate  // Only date, no time
+            };
+
+            console.log("Sending data:", appointmentData); // Debugging step
+
+            fetch("/Home/AddAppointment", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(appointmentData) // Convert object to JSON
+            })
+            .then(response => {
+                if (!response.ok) {
+                    return response.text().then(text => { throw new Error(text); });
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log("Response:", data);
+                if (data.success) {
+                    alert("Appointment added successfully and confirmation email sent!");
+                    modalInstance.hide();
+                } else {
+                    alert("Error: " + data.message);
+                }
+            })
+            .catch(error => console.error("Error:", error));
+        }
+
+
+</script>

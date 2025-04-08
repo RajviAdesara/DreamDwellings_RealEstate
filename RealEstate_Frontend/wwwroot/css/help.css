@@ -1,0 +1,57 @@
+﻿/* styles.css */
+:root {
+    --primary: #00B98E;
+    --secondary: #FF6922;
+    --light: #EFFDF5;
+    --dark: #0E2E50;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--light);
+    color: var(--dark);
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid var(--secondary);
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: var(--primary);
+    text-align: center;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: var(--primary);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-weight: bold;
+    border-top: 4px solid var(--secondary);
+}

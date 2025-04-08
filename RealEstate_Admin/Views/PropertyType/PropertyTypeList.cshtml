@@ -1,0 +1,115 @@
+﻿<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Property Type List</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active">Property Type</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body" style="margin-top:10px;">
+
+                    @if (TempData["ConfirmationMessage"] != null)
+                    {
+                        <div class="alert alert-success" id="confirmationMessage" role="alert">
+                            @TempData["ConfirmationMessage"]
+                        </div>
+                    }
+
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger" id="errorMessage" role="alert">
+                            @TempData["ErrorMessage"]
+                        </div>
+                    }
+
+                    <a asp-controller="PropertyType" asp-action="AddPropertyType">
+                        <button type="button" class="btn btn-primary" style="position:relative; float:right; margin-top:10px;margin-bottom:30px;">
+                            Add Property Type
+                        </button>
+                    </a>
+                    <span class="text-danger">@TempData["ErrorMessage"]</span>
+
+                    <!-- Table with stripped rows -->
+                    <table class="table table-striped searchable-table" id="propertyTypeTable">
+                        <thead>
+                            <tr>
+                                <th scope="col">Sr. No.</th>
+                                <th scope="col">Property Type</th>
+                                <th class="text-center">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int serialNumber = 1; // Initialize serial number
+                            }
+                            @foreach (var propertyType in Model)
+                            {
+                                <tr>
+                                    <td>@serialNumber</td>
+                                    <td>@propertyType.PropertyType</td>
+                                    <td class="d-flex justify-content-center">
+                                        <a asp-controller="PropertyType" asp-action="AddPropertyType" asp-route-PropertyTypeId="@propertyType.PropertyTypeId">
+                                            <button type="button" class="btn btn-success" style="margin:10px 10px;">Edit</button>
+                                        </a>
+                                        <form method="post" asp-controller="PropertyType" asp-action="DeletePropertyType" onsubmit="return confirm('Are you sure you want to delete this property type?');">
+                                            <input type="hidden" name="PropertyTypeId" value="@propertyType.PropertyTypeId" />
+                                            <button type="submit" class="btn btn-danger" style="margin:10px 10px;">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                                serialNumber++; // Increment serial number
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var errorMessage = document.getElementById('errorMessage');
+        var confirmationMessage = document.getElementById('confirmationMessage');
+
+        if (errorMessage) {
+            setTimeout(function () {
+                errorMessage.style.display = 'none';
+            }, 1000);
+        }
+
+        if (confirmationMessage) {
+            setTimeout(function () {
+                confirmationMessage.style.display = 'none';
+            }, 1000);
+        }
+    });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#searchInput").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+
+            // Detect which table is visible on the current page
+            $(".searchable-table").each(function () {
+                if ($(this).is(":visible")) {
+                    // Filter the rows of the active table
+                    $(this).find("tbody tr").filter(function () {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                    });
+                }
+            });
+        });
+    });
+</script>

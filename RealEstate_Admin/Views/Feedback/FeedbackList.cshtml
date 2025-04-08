@@ -1,0 +1,69 @@
+﻿@model List<FeedbackModel>
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Feedback List</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active">Feedback</li>
+            </ol>
+        </nav>
+    </div>
+
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body" style="margin-top:10px;">
+
+                    @* <a asp-controller="Feedback" asp-action="AddFeedback">  *@
+                    @*     <button type="button" class="btn btn-primary" style="position:relative; float:right; margin-top:10px;margin-bottom:30px;">  *@
+                    @*         Add Feedback *@
+                    @*     </button>  *@
+                    @* </a> *@
+
+                    <table class="table table-striped searchable-table w-100" id="feedbackTable">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Message</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var feedback in Model)
+                            {
+                                    <tr>
+                                        <td>@feedback.Name</td>
+                                        <td>@feedback.Email</td>
+                                        <td>@feedback.Message</td>
+                                    </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#searchInput").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+
+            // Detect which table is visible on the current page
+            $(".searchable-table").each(function () {
+                if ($(this).is(":visible")) {
+                    // Filter the rows of the active table
+                    $(this).find("tbody tr").filter(function () {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                    });
+                }
+            });
+        });
+    });
+</script>

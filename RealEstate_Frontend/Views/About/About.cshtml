@@ -1,0 +1,100 @@
+﻿<!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <!-- Left Side Image -->
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                    <img class="img-fluid w-100 rounded" src="~/img/about.jpg" alt="About Us">
+                </div>
+            </div>
+
+            <!-- Right Side Content -->
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <h1 class="mb-4">Your Trusted Partner in Real Estate</h1>
+                <p class="mb-4">
+                    Whether you're buying, selling, or renting, we are committed to making your real estate journey seamless and stress-free.
+                    With years of experience, a vast network, and an in-depth understanding of the market, we bring you the best property options
+                    tailored to your needs.
+                </p>
+
+                <div class="row mb-4">
+                    <div class="col-6">
+                        <p><i class="fa fa-check text-primary me-3"></i> Wide range of property listings</p>
+                        <p><i class="fa fa-check text-primary me-3"></i> Transparent and hassle-free transactions</p>
+                    </div>
+                    <div class="col-6">
+                        <p><i class="fa fa-check text-primary me-3"></i> Personalized service & expert guidance</p>
+                        <p><i class="fa fa-check text-primary me-3"></i> Strong network of buyers & sellers</p>
+                    </div>
+                </div>
+
+                <!-- Read More Section -->
+                <div id="moreContent" style="display: none;">
+                    <p>
+                        Our team of dedicated real estate professionals ensures you get the best deals, whether you're looking for
+                        a luxurious apartment, a cozy home, or a lucrative investment opportunity.
+                        We prioritize your satisfaction and work tirelessly to find the perfect property for you.
+                    </p>
+                    <p>
+                        Let us handle the complexities while you focus on finding the space that feels like home.
+                        Your dream property is just a step away!
+                    </p>
+                    <button class="btn btn-secondary py-2 px-4 mt-3" onclick="toggleContent()">Read Less</button>
+                </div>
+
+                <!-- Read More Button -->
+                <button class="btn btn-primary py-3 px-5 mt-3" id="readMoreBtn" onclick="toggleContent()">Read More</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+<!-- Testimonials Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1 class="mb-3">What Our Clients Say</h1>
+            <p>See why homeowners and investors trust DreamDwellings</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="testimonial-item bg-light rounded p-4">
+                    <img class="img-fluid rounded-circle mb-3" src="~/img/testimonial-1.jpg" alt="">
+                    <h5>Sarah Johnson</h5>
+                    <p>“DreamDwellings made buying my first home effortless! Their team understood my needs and found the perfect house for me.”</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="testimonial-item bg-light rounded p-4">
+                    <img class="img-fluid rounded-circle mb-3" src="~/img/testimonial-2.jpg" alt="">
+                    <h5>Michael Thompson</h5>
+                    <p>“I was looking for a great investment property, and DreamDwellings helped me find a fantastic deal. Highly recommended!”</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="testimonial-item bg-light rounded p-4">
+                    <img class="img-fluid rounded-circle mb-3" src="~/img/testimonial-3.jpg" alt="">
+                    <h5>Emily Davis</h5>
+                    <p>“Professional, reliable, and knowledgeable—DreamDwellings exceeded my expectations in every way.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonials End -->
+
+<script>
+    function toggleContent() {
+        var moreContent = document.getElementById("moreContent");
+        var readMoreBtn = document.getElementById("readMoreBtn");
+
+        if (moreContent.style.display === "none") {
+            moreContent.style.display = "block";
+            readMoreBtn.style.display = "none";
+        } else {
+            moreContent.style.display = "none";
+            readMoreBtn.style.display = "inline-block";
+        }
+    }
+</script>

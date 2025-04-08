@@ -1,0 +1,116 @@
+R:\Sem VI\Adv.Net\RealEstate\bin\Debug\net8.0\appsettings.Development.json
+R:\Sem VI\Adv.Net\RealEstate\bin\Debug\net8.0\appsettings.json
+R:\Sem VI\Adv.Net\RealEstate\bin\Debug\net8.0\RealEstate.staticwebassets.runtime.json
+R:\Sem VI\Adv.Net\RealEstate\bin\Debug\net8.0\RealEstate.staticwebassets.endpoints.json
+R:\Sem VI\Adv.Net\RealEstate\bin\Debug\net8.0\RealEstate.exe
+R:\Sem VI\Adv.Net\RealEstate\bin\Debug\net8.0\RealEstate.deps.json
+R:\Sem VI\Adv.Net\RealEstate\bin\Debug\net8.0\RealEstate.runtimeconfig.json
+R:\Sem VI\Adv.Net\RealEstate\bin\Debug\net8.0\RealEstate.dll
+R:\Sem VI\Adv.Net\RealEstate\bin\Debug\net8.0\RealEstate.pdb
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\RealEstate.GeneratedMSBuildEditorConfig.editorconfig
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\RealEstate.AssemblyInfoInputs.cache
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\RealEstate.AssemblyInfo.cs
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\RealEstate.csproj.CoreCompileInputs.cache
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\RealEstate.MvcApplicationPartsAssemblyInfo.cache
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\RealEstate.RazorAssemblyInfo.cache
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\RealEstate.RazorAssemblyInfo.cs
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\scopedcss\bundle\RealEstate.styles.css
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\scopedcss\projectbundle\RealEstate.bundle.scp.css
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\staticwebassets.build.json
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\staticwebassets.development.json
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\staticwebassets\msbuild.RealEstate.Microsoft.AspNetCore.StaticWebAssets.props
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\staticwebassets\msbuild.RealEstate.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\staticwebassets\msbuild.build.RealEstate.props
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RealEstate.props
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RealEstate.props
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\staticwebassets.pack.json
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\RealEstate.dll
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\refint\RealEstate.dll
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\RealEstate.pdb
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\RealEstate.genruntimeconfig.cache
+R:\Sem VI\Adv.Net\RealEstate\obj\Debug\net8.0\ref\RealEstate.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\appsettings.Development.json
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\appsettings.json
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\RealEstate.staticwebassets.runtime.json
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\RealEstate.staticwebassets.endpoints.json
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\RealEstate.exe
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\RealEstate.deps.json
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\RealEstate.runtimeconfig.json
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\RealEstate.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\RealEstate.pdb
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\FluentValidation.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\MailKit.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\MimeKit.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Newtonsoft.Json.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\System.Data.SqlClient.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.csproj.AssemblyReference.cache
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.GeneratedMSBuildEditorConfig.editorconfig
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.AssemblyInfoInputs.cache
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.AssemblyInfo.cs
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.csproj.CoreCompileInputs.cache
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.MvcApplicationPartsAssemblyInfo.cs
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.MvcApplicationPartsAssemblyInfo.cache
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.RazorAssemblyInfo.cache
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.RazorAssemblyInfo.cs
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\scopedcss\bundle\RealEstate.styles.css
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\scopedcss\projectbundle\RealEstate.bundle.scp.css
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\staticwebassets.build.json
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\staticwebassets.development.json
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\staticwebassets\msbuild.RealEstate.Microsoft.AspNetCore.StaticWebAssets.props
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\staticwebassets\msbuild.RealEstate.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\staticwebassets\msbuild.build.RealEstate.props
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RealEstate.props
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RealEstate.props
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\staticwebassets.pack.json
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.csproj.Up2Date
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\refint\RealEstate.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.pdb
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\RealEstate.genruntimeconfig.cache
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\obj\Debug\net8.0\ref\RealEstate.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Hangfire.AspNetCore.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Hangfire.Core.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Hangfire.NetCore.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\Hangfire.SqlServer.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+R:\Sem VI\Adv.Net\Semester Project\RealEstate\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll

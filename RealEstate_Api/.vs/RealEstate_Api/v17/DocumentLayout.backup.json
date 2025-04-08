@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate_Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E231693E-B72A-44B0-A11D-1D3BA9ECB176}|RealEstate_Api.csproj|r:\\sem vi\\adv.net\\semester project\\realestate_api\\data\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E231693E-B72A-44B0-A11D-1D3BA9ECB176}|RealEstate_Api.csproj|solutionrelative:data\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E231693E-B72A-44B0-A11D-1D3BA9ECB176}|RealEstate_Api.csproj|r:\\sem vi\\adv.net\\semester project\\realestate_api\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E231693E-B72A-44B0-A11D-1D3BA9ECB176}|RealEstate_Api.csproj|solutionrelative:controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E231693E-B72A-44B0-A11D-1D3BA9ECB176}|RealEstate_Api.csproj|r:\\sem vi\\adv.net\\semester project\\realestate_api\\models\\appointmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E231693E-B72A-44B0-A11D-1D3BA9ECB176}|RealEstate_Api.csproj|solutionrelative:models\\appointmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate_Api\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
+              "ToolTip": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate_Api\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:44:51.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate_Api\\Data\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Data\\AppointmentRepository.cs",
+              "ToolTip": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate_Api\\Data\\AppointmentRepository.cs",
+              "RelativeToolTip": "Data\\AppointmentRepository.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAIwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:44:14.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentModel.cs",
+              "DocumentMoniker": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate_Api\\Models\\AppointmentModel.cs",
+              "RelativeDocumentMoniker": "Models\\AppointmentModel.cs",
+              "ToolTip": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate_Api\\Models\\AppointmentModel.cs",
+              "RelativeToolTip": "Models\\AppointmentModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:25:51.1Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

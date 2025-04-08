@@ -1,0 +1,207 @@
+﻿<!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="mb-3">Property Agents</h1>
+            <p>Connect with experienced property agents dedicated to helping you find your dream home. Our professionals offer expert guidance and personalized assistance.
+                Let us make your property search smooth and hassle-free.
+            </p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="~/img/agent2.jpg" alt="">
+                        <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4 mt-3">
+                        <h5 class="fw-bold mb-0">James Wilson</h5>
+                        <small>Senior Property Agent</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="~/img/team-1.jpg" alt="">
+                        <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4 mt-3">
+                        <h5 class="fw-bold mb-0">Emily Roberts</h5>
+                        <small>Residential Property Specialist</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="~/img/agent3.jpg" alt="">
+                        <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4 mt-3">
+                        <h5 class="fw-bold mb-0">David Carter</h5>
+                        <small>Commercial Property Consultant</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="~/img/team-3.jpg" alt="">
+                        <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4 mt-3">
+                        <h5 class="fw-bold mb-0">Sarah Thomas</h5>
+                        <small>Property Sales Manager</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+<!-- Call to Action Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="img-fluid rounded w-100" src="~/img/call-to-action.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Contact With Our Certified Agent</h1>
+                            <p>Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum sit sit diam justo sed vero dolor duo.</p>
+                        </div>
+                        <a href="tel:+1234567890" class="btn btn-primary py-3 px-4 me-2">
+                            <i class="fa fa-phone-alt me-2"></i>Make A Call
+                        </a>
+                        <button class="btn btn-dark py-3 px-4" id="openModalButton">
+                            <i class="fa fa-calendar-alt me-2"></i>Get Appointment
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--  Appointment Modal -->
+<div id="appointmentModal" class="modal fade" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Select Appointment Date</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <label for="appointmentDate" class="form-label">Choose Date:</label>
+                <input type="date" id="appointmentDate" class="form-control text-center" required>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" onclick="sendAppointment()">Confirm Appointment</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let modalElement = document.getElementById("appointmentModal");
+        let modalInstance = new bootstrap.Modal(modalElement);
+
+        // When opening the modal
+        document.getElementById("openModalButton").addEventListener("click", function () {
+            // Set minimum date to today
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById("appointmentDate").min = today;
+            modalInstance.show();
+        });
+
+        // When closing the modal
+        document.getElementById("closeModalButton")?.addEventListener("click", function () {
+        modalInstance.hide();
+        });
+    });
+
+
+        function getCookie(name) {
+            let cookieArr = document.cookie.split(";");
+            for (let i = 0; i < cookieArr.length; i++) {
+                let cookiePair = cookieArr[i].split("=");
+                if (name === cookiePair[0].trim()) {
+                    return decodeURIComponent(cookiePair[1]);
+                }
+            }
+            return null;
+        }
+            function sendAppointment() {
+            let appointmentDateInput = document.getElementById("appointmentDate").value;
+            let userEmail = getCookie("Email");
+            let modalElement = document.getElementById("appointmentModal");
+            let modalInstance = bootstrap.Modal.getInstance(modalElement);
+
+            if (!userEmail) {
+                alert("User email not found. Please log in again.");
+                return;
+            }
+
+            if (!appointmentDateInput) {
+                alert("Please select an appointment date.");
+                return;
+            }
+
+            // Extract only the date (YYYY-MM-DD)
+            let appointmentDate = new Date(appointmentDateInput).toISOString().split("T")[0];
+
+            let appointmentData = {
+                UserEmail: userEmail,
+                AppointmentDate: appointmentDate  // Only date, no time
+            };
+
+            console.log("Sending data:", appointmentData); // Debugging step
+
+            fetch("/Home/AddAppointment", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(appointmentData) // Convert object to JSON
+            })
+            .then(response => {
+                if (!response.ok) {
+                    return response.text().then(text => { throw new Error(text); });
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log("Response:", data);
+                if (data.success) {
+                    alert("Appointment added successfully and confirmation email sent!");
+                    modalInstance.hide();
+                } else {
+                    alert("Error: " + data.message);
+                }
+            })
+            .catch(error => console.error("Error:", error));
+        }
+
+</script>

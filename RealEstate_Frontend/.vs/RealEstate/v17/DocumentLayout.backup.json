@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F229FE96-06F6-4986-A6EA-B3F2507779D6}|RealEstate.csproj|r:\\sem vi\\adv.net\\semester project\\realestate\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229FE96-06F6-4986-A6EA-B3F2507779D6}|RealEstate.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229FE96-06F6-4986-A6EA-B3F2507779D6}|RealEstate.csproj|r:\\sem vi\\adv.net\\semester project\\realestate\\views\\property\\allproperty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F229FE96-06F6-4986-A6EA-B3F2507779D6}|RealEstate.csproj|solutionrelative:views\\property\\allproperty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229FE96-06F6-4986-A6EA-B3F2507779D6}|RealEstate.csproj|r:\\sem vi\\adv.net\\semester project\\realestate\\views\\property\\propertylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F229FE96-06F6-4986-A6EA-B3F2507779D6}|RealEstate.csproj|solutionrelative:views\\property\\propertylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAkwL0AAACgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:12:52.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyList.cshtml",
+              "DocumentMoniker": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\Views\\Property\\PropertyList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Property\\PropertyList.cshtml",
+              "ToolTip": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\Views\\Property\\PropertyList.cshtml",
+              "RelativeToolTip": "Views\\Property\\PropertyList.cshtml",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAIwKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T02:20:00.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AllProperty.cshtml",
+              "DocumentMoniker": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\Views\\Property\\AllProperty.cshtml",
+              "RelativeDocumentMoniker": "Views\\Property\\AllProperty.cshtml",
+              "ToolTip": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\Views\\Property\\AllProperty.cshtml",
+              "RelativeToolTip": "Views\\Property\\AllProperty.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAIwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T02:19:46.328Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

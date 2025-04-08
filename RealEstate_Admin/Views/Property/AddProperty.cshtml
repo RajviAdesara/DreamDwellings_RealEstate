@@ -1,0 +1,134 @@
+﻿@model RealEstate_Admin.Models.PropertyModel
+
+<main id="main" class="main">
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h2 style="padding-top: 20px; padding-bottom:10px;">@(Model.PropertyId > 0 ? "Edit Property" : "Add Property")</h2>
+
+                    <form asp-action="SaveProperty" asp-controller="Property" method="post" enctype="multipart/form-data">
+                        @Html.HiddenFor(x => x.PropertyId)
+
+                        <div class="row mb-3">
+                            <label for="Title" class="col-sm-2 col-form-label">Property Title</label>
+                            <div class="col-sm-10">
+                                <input type="text" asp-for="Title" class="form-control" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="Description" class="col-sm-2 col-form-label">Description</label>
+                            <div class="col-sm-10">
+                                <textarea asp-for="Description" class="form-control"></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="Price" class="col-sm-2 col-form-label">Price</label>
+                            <div class="col-sm-10">
+                                <input type="number" asp-for="Price" class="form-control" />
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="Location" class="col-sm-2 col-form-label">Location</label>
+                            <div class="col-sm-10">
+                                <input type="text" asp-for="Location" class="form-control" />
+                                <span asp-validation-for="Location" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label">Property Type</label>
+                            <div class="col-sm-10">
+                                <div class="d-flex">
+                                    <div class="form-check me-5">
+                                        <input type="radio" asp-for="PropertyTypeId" class="form-check-input" style="border: 2px solid #333" id="House" value="1" />
+                                        <label class="form-check-label" for="House">House</label>
+                                    </div>
+                                    <div class="form-check me-5">
+                                        <input type="radio" asp-for="PropertyTypeId" class="form-check-input" style="border: 2px solid #333" id="Appartment" value="2" />
+                                        <label class="form-check-label" for="Appartment">Apartment</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="radio" asp-for="PropertyTypeId" class="form-check-input" style="border: 2px solid #333" id="Commercial" value="3" />
+                                        <label class="form-check-label" for="Commercial">Commercial</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label">Category</label>
+                            <div class="col-sm-10">
+                                <div class="d-flex">
+                                    <div class="form-check me-5">
+                                        <input type="radio" asp-for="Category" class="form-check-input" style="border: 2px solid #333" id="Sell" value="Sell" />
+                                        <label class="form-check-label" for="Sell">For Sell</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="radio" asp-for="Category" class="form-check-input" style="border: 2px solid #333" id="Rent" value="Rent" />
+                                        <label class="form-check-label" for="Rent">For Rent</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="Area" class="col-sm-2 col-form-label">Area (sq ft)</label>
+                            <div class="col-sm-10">
+                                <input type="number" asp-for="Area" class="form-control" />
+                                <span asp-validation-for="Area" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="Bedrooms" class="col-sm-2 col-form-label">Bedrooms</label>
+                            <div class="col-sm-10">
+                                <input type="number" asp-for="Bedrooms" class="form-control" />
+                                <span asp-validation-for="Bedrooms" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="Bathrooms" class="col-sm-2 col-form-label">Bathrooms</label>
+                            <div class="col-sm-10">
+                                <input type="number" asp-for="Bathrooms" class="form-control" />
+                                <span asp-validation-for="Bathrooms" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="Amenities" class="col-sm-2 col-form-label">Amenities</label>
+                            <div class="col-sm-10">
+                                <textarea asp-for="Amenities" class="form-control"></textarea>
+                                <span asp-validation-for="Amenities" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="ImagePath" class="col-sm-2 col-form-label">Upload Image</label>
+                            <div class="col-sm-10">
+                                <input type="file" asp-for="ImagePath" class="form-control" accept="image/*" />
+                                <span asp-validation-for="ImagePath" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"></label>
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <a asp-controller="Property" asp-action="PropertyList" class="btn btn-secondary">Cancel</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

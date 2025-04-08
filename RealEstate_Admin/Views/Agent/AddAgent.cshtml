@@ -1,0 +1,80 @@
+﻿@model RealEstate_Admin.Models.AgentModel
+
+<main id="main" class="main">
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h2 style="padding-top: 20px; padding-bottom:10px;">
+                        @(Model.AgentId > 0 ? "Edit Agent" : "Add Agent")
+                    </h2>
+
+                    <form asp-action="SaveAgent" asp-controller="Agent" method="post" enctype="multipart/form-data">
+                        @Html.HiddenFor(x => x.AgentId)
+
+                        <div class="row mb-3">
+                            <label for="AgentName" class="col-sm-2 col-form-label">Agent Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" asp-for="AgentName" class="form-control" required />
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="LicenseNumber" class="col-sm-2 col-form-label">License Number</label>
+                            <div class="col-sm-10">
+                                <input type="text" asp-for="LicenseNumber" class="form-control" required />
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="ExperienceYears" class="col-sm-2 col-form-label">Experience (Years)</label>
+                            <div class="col-sm-10">
+                                <input type="number" asp-for="ExperienceYears" class="form-control" required min="0" />
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="ContactNumber" class="col-sm-2 col-form-label">Contact Number</label>
+                            <div class="col-sm-10">
+                                <input type="text" asp-for="ContactNumber" class="form-control" required />
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="OfficeAddress" class="col-sm-2 col-form-label">Office Address</label>
+                            <div class="col-sm-10">
+                                <textarea asp-for="OfficeAddress" class="form-control"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="ProfilePicture" class="col-sm-2 col-form-label">Profile Picture</label>
+                            <div class="col-sm-10">
+                                <input type="file" asp-for="ProfilePicture" class="form-control" accept="image/*" />
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label">Status</label>
+                            <div class="col-sm-10">
+                                <select asp-for="Status" class="form-control">
+                                    <option value="Active">Active</option>
+                                    <option value="Inactive">Inactive</option>
+                                    <option value="Suspended">Suspended</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"></label>
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <a asp-controller="Agent" asp-action="AgentList" class="btn btn-secondary">Cancel</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

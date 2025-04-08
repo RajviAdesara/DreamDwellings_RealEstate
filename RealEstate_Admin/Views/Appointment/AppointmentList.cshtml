@@ -1,0 +1,158 @@
+﻿<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Appointment List</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active">Appointments</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body" style="margin-top:10px;">
+
+                    @if (TempData["ConfirmationMessage"] != null)
+                    {
+                        <div class="alert alert-success" id="confirmationMessage" role="alert">
+                            @TempData["ConfirmationMessage"]
+                        </div>
+                    }
+
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger" id="errorMessage" role="alert">
+                            @TempData["ErrorMessage"]
+                        </div>
+                    }
+
+                    <!-- Table with stripped rows -->
+                    <table class="table table-striped searchable-table" id="appointmentTable">
+                        <thead>
+                            <tr>
+                                <th scope="col">User Email</th>
+                                <th scope="col">Appointment Date</th>
+                                <th scope="col">Status</th>
+                                <th class="text-center">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var appointment in Model)
+                            {
+                                <tr>
+                                    <td class="align-middle">@appointment.UserEmail</td>
+                                    <td class="align-middle">@appointment.AppointmentDate.ToString("yyyy-MM-dd HH:mm")</td>
+                                    <td class="align-middle">
+                                        <span class="badge @(appointment.Status == "Confirmed" ? "bg-success" : appointment.Status == "Canceled" ? "bg-danger" : "bg-warning")">
+                                            @appointment.Status
+                                        </span>
+                                    </td>
+                                    <td class="d-flex justify-content-center">
+                                        @if (appointment.Status == "Pending")
+                                        {
+                                            <!-- Approve Button -->
+                                            <button type="button" class="btn btn-success" style="margin:10px 10px;"
+                                                    onclick="updateStatus(@appointment.Id, 'Confirmed')">
+                                                Approve
+                                            </button>
+
+                                            <!-- Cancel Button -->
+                                            <button type="button" class="btn btn-danger" style="margin:10px 10px;"
+                                                    onclick="updateStatus(@appointment.Id, 'Canceled')">
+                                                Cancel
+                                            </button>
+                                        }
+                                        else if (appointment.Status == "Confirmed")
+                                        {
+                                            <!-- Show only Cancel button for Confirmed Appointments -->
+                                            <button type="button" class="btn btn-danger" style="margin:10px 10px;"
+                                                    onclick="updateStatus(@appointment.Id, 'Canceled')">
+                                                Cancel
+                                            </button>
+                                        }
+                                        @* else if (appointment.Status == "Cancel") *@
+                                        @* { *@
+                                        @*     <!-- Show only Cancel button for Confirmed Appointments --> *@
+                                        @*     <button type="button" class="btn btn-danger" style="margin:10px 10px;" *@
+                                        @*             onclick="updateStatus(@appointment.Id, 'Confirmed')"> *@
+                                        @*         Approve *@
+                                        @*     </button> *@
+                                        @* } *@
+                                        else
+                                        {
+                                            <span class="text-muted">No Actions</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#searchInput").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+
+            // Detect which table is visible on the current page
+            $(".searchable-table").each(function () {
+                if ($(this).is(":visible")) {
+                    // Filter the rows of the active table
+                    $(this).find("tbody tr").filter(function () {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var errorMessage = document.getElementById('errorMessage');
+        var confirmationMessage = document.getElementById('confirmationMessage');
+
+        if (errorMessage) {
+            setTimeout(function () {
+                errorMessage.style.display = 'none';
+            }, 1000);
+        }
+
+        if (confirmationMessage) {
+            setTimeout(function () {
+                confirmationMessage.style.display = 'none';
+            }, 3000);
+        }
+    });
+
+    function updateStatus(id, status) {
+        
+        fetch(`/Appointment/UpdateStatus/${id}`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ Id: id, Status: status })
+        })
+        .then(response => {
+            if (!response.ok) throw new Error("Failed to update");
+            location.reload();
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            alert("Failed to update appointment status.");
+        });
+
+    }
+</script>

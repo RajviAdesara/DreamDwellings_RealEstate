@@ -1,0 +1,80 @@
+﻿@model List<UserModel>
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>User List</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active">Users</li>
+            </ol>
+        </nav>
+    </div>
+
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body" style="margin-top:10px;">
+
+                    <a asp-controller="User" asp-action="AddUser"> 
+                         <button type="button" class="btn btn-primary" style="position:relative; float:right; margin-top:10px;margin-bottom:30px;"> 
+                             Add User 
+                         </button> 
+                     </a>
+
+                    <table class="table table-striped searchable-table" id="userTable">
+                        <thead>
+                            <tr>
+                                <th scope="col">User Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Role</th>
+                                <th class="text-center">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var user in Model)
+                            {
+                                    <tr>
+                                        <td>@user.UserName</td>
+                                        <td>@user.Email</td>
+                                        <td>@user.Role</td>
+                                    <td class="d-flex justify-content-center">
+                                            <a asp-controller="User" asp-action="AddUser" asp-route-UserID="@user.UserID">
+                                                <button type="button" class="btn btn-success" style="margin:10px 10px;">Edit</button>
+                                            </a>
+                                            <form method="post" asp-controller="User" asp-action="DeleteUser" onsubmit="return confirm('Are you sure you want to delete this user?');">
+                                                <input type="hidden" name="UserID" value="@user.UserID" />
+                                            <button type="submit" class="btn btn-danger" style="margin:10px 10px;">Delete</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#searchInput").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+
+            // Detect which table is visible on the current page
+            $(".searchable-table").each(function () {
+                if ($(this).is(":visible")) {
+                    // Filter the rows of the active table
+                    $(this).find("tbody tr").filter(function () {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                    });
+                }
+            });
+        });
+    });
+</script>
+

@@ -1,0 +1,94 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout_Register.cshtml";
+}
+
+@model RealEstate_Admin.Models.UserModel
+
+
+<main>
+    <div class="container">
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+        <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 d-flex flex-column align-items-center justify-content-center">
+
+                        <div class="d-flex justify-content-center py-4">
+                            <a class="logo d-flex align-items-center w-auto">
+                                <img src="~/assets/img/estateLogo.png" alt="">
+                                <span class="d-none d-lg-block">Dream Dwellings</span>
+                            </a>
+                        </div><!-- End Logo -->
+
+                        <div class="card mb-3">
+
+                            <div class="card-body">
+
+                                <div class="pt-4 pb-2">
+                                    <h5 class="card-title text-center pb-0 fs-4">Create an Account</h5>
+                                    <p class="text-center small">Enter your details to create account</p>
+                                </div>
+
+                                <form class="row g-3 needs-validation" asp-controller="User" asp-action="Register" novalidate>
+                                    <div class="col-12">
+                                        <label for="yourName" class="form-label">UserName</label>
+                                        <input type="text" asp-for="UserName" class="form-control" id="yourName">
+                                        <span asp-validation-for="UserName" class="text-danger"></span>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="yourPasswrod" class="form-label">Password</label>
+                                        <input type="password" asp-for="Password" class="form-control" id="yourEmail">
+                                        <span asp-validation-for="Password" class="text-danger"></span>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="yourEmail" class="form-label">Email</label>
+                                        <input type="email" asp-for="Email" class="form-control" id="yourEmail">
+                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="yourRole" class="form-label">Role</label>
+                                        <input type="text" asp-for="Role" class="form-control" id="yourEmail">
+                                        <span asp-validation-for="Role" class="text-danger"></span>
+                                    </div>
+                                    
+
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
+                                            <label class="form-check-label" for="acceptTerms">I agree and accept the <a href="#">terms and conditions</a></label>
+                                            <div class="invalid-feedback">You must agree before submitting.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100" type="submit">Create Account</button>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="small mb-0">Already have an account? <a asp-controller="User" asp-action="UserLogin">Log in</a></p>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+</main><!-- End #main -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

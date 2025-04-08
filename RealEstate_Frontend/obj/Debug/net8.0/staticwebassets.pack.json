@@ -1,0 +1,593 @@
+{
+  "Files": [
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstate.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RealEstate.cqkjzsf0qq.bundle.scp.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\css\\help.css",
+      "PackagePath": "staticwebassets\\css\\help.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\agent1.jpg",
+      "PackagePath": "staticwebassets\\img\\agent1.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\agent2.jpg",
+      "PackagePath": "staticwebassets\\img\\agent2.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\agent3.jpg",
+      "PackagePath": "staticwebassets\\img\\agent3.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\agent4.jpg",
+      "PackagePath": "staticwebassets\\img\\agent4.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\call-to-action.jpg",
+      "PackagePath": "staticwebassets\\img\\call-to-action.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\download.jpeg",
+      "PackagePath": "staticwebassets\\img\\download.jpeg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\estateLogo.png",
+      "PackagePath": "staticwebassets\\img\\estateLogo.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\header.jpg",
+      "PackagePath": "staticwebassets\\img\\header.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\house1.jpg",
+      "PackagePath": "staticwebassets\\img\\house1.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\house2.jpg",
+      "PackagePath": "staticwebassets\\img\\house2.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\house3.jpg",
+      "PackagePath": "staticwebassets\\img\\house3.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\house4.jpg",
+      "PackagePath": "staticwebassets\\img\\house4.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\house5.jpg",
+      "PackagePath": "staticwebassets\\img\\house5.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\house6.jpg",
+      "PackagePath": "staticwebassets\\img\\house6.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\house7.jpg",
+      "PackagePath": "staticwebassets\\img\\house7.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\house8.jpg",
+      "PackagePath": "staticwebassets\\img\\house8.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\house9.jpg",
+      "PackagePath": "staticwebassets\\img\\house9.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\icon-apartment.png",
+      "PackagePath": "staticwebassets\\img\\icon-apartment.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\icon-building.png",
+      "PackagePath": "staticwebassets\\img\\icon-building.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\icon-condominium.png",
+      "PackagePath": "staticwebassets\\img\\icon-condominium.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\icon-deal.png",
+      "PackagePath": "staticwebassets\\img\\icon-deal.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\icon-house.png",
+      "PackagePath": "staticwebassets\\img\\icon-house.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\icon-housing.png",
+      "PackagePath": "staticwebassets\\img\\icon-housing.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\icon-luxury.png",
+      "PackagePath": "staticwebassets\\img\\icon-luxury.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\icon-neighborhood.png",
+      "PackagePath": "staticwebassets\\img\\icon-neighborhood.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\icon-search.png",
+      "PackagePath": "staticwebassets\\img\\icon-search.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\icon-villa.png",
+      "PackagePath": "staticwebassets\\img\\icon-villa.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "R:\\Sem VI\\Adv.Net\\Semester Project\\RealEstate\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RealEstate.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RealEstate.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RealEstate.props",
+      "PackagePath": "build\\RealEstate.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RealEstate.props",
+      "PackagePath": "buildMultiTargeting\\RealEstate.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RealEstate.props",
+      "PackagePath": "buildTransitive\\RealEstate.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

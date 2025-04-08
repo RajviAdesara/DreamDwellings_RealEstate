@@ -1,0 +1,162 @@
+﻿@model List<RealEstate_Admin.Models.PropertyModel>
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Property List</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active">Property</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body" style="margin-top:10px;">
+                    <!-- Search Form -->
+                    <form id="propertyFilterForm">
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-3">
+                                <input type="number" class="form-control filter-input" name="minPrice" placeholder="Min Price" />
+                            </div>
+                            <div class="col-md-3">
+                                <input type="number" class="form-control filter-input" name="maxPrice" placeholder="Max Price" />
+                            </div>
+                            <div class="col-md-3">
+                                <input type="number" class="form-control filter-input" name="bedrooms" placeholder="Bedrooms" />
+                            </div>
+                            <div class="col-md-3">
+                                <input type="number" class="form-control filter-input" name="bathrooms" placeholder="Bathrooms" />
+                            </div>
+                            <div class="col-md-3">
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Reset Button -->
+                    <button id="resetFilters" class="btn btn-secondary">Reset Filters</button>
+
+
+                    <!-- Table with stripped rows -->
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        {
+                            <!-- Table with stripped rows -->
+                            <table class="table table-striped searchable-table" id="propertyTable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Property Title</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Image</th>
+                                        <th scope="col">Location</th>
+                                        <th scope="col">Bedrooms</th>
+                                        <th scope="col">Bathrooms</th>
+                                        <th class="text-center">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var property in Model)
+                                    {
+                                        <tr>
+                                            <td>@property.Title</td>
+                                            <td>@property.Price.ToString("C")</td>
+                                            <td>
+                                                @if (!string.IsNullOrEmpty(property.ImagePath))
+                                                {
+                                                    <img src="@property.ImagePath" alt="@property.ImageName" width="100" height="100" />
+                                                }
+                                                else
+                                                {
+                                                    <p>No Image</p>
+                                                }
+                                            </td>
+                                            <td>@property.Location</td>
+                                            <td>@property.Bedrooms</td>
+                                            <td>@property.Bathrooms</td>
+                                            <td class="d-flex justify-content-center">
+                                                <a asp-controller="Property" asp-action="AddProperty" asp-route-PropertyId="@property.PropertyId">
+                                                    <button type="button" class="btn btn-success" style="margin:10px 10px;">Edit</button>
+                                                </a>
+                                                <form method="post" asp-controller="Property" asp-action="DeleteProperty" onsubmit="return confirm('Are you sure you want to delete this property?');">
+                                                    <input type="hidden" name="propertyId" value="@property.PropertyId" />
+                                                    <button type="submit" class="btn btn-danger" style="margin:10px 10px;">Delete</button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                        }
+                            else
+                        {
+                            <div class="alert alert-warning">No properties found matching your criteria.</div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+                        <!-- End #main -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var errorMessage = document.getElementById('errorMessage');
+            var confirmationMessage = document.getElementById('confirmationMessage');
+
+            if (errorMessage) {
+                setTimeout(function () {
+                    errorMessage.style.display = 'none';
+                }, 1000);
+            }
+
+            if (confirmationMessage) {
+                setTimeout(function () {
+                    confirmationMessage.style.display = 'none';
+                }, 1000);
+            }
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+<script>
+    // Prevent form from submitting and trigger filter instead
+    document.getElementById("propertyFilterForm").addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent default form submission
+        applyFilters();
+    });
+
+    // Reset Filters button functionality
+    document.getElementById("resetFilters").addEventListener("click", function () {
+        document.querySelectorAll('.filter-input').forEach(input => input.value = '');
+        applyFilters();
+    });
+
+    // Main filtering function (triggered ONLY by Search button click)
+    function applyFilters() {
+        const minPrice = parseFloat(document.querySelector('input[name="minPrice"]').value) || 0;
+        const maxPrice = parseFloat(document.querySelector('input[name="maxPrice"]').value) || Number.MAX_VALUE;
+        const bedrooms = parseInt(document.querySelector('input[name="bedrooms"]').value) || null;
+        const bathrooms = parseInt(document.querySelector('input[name="bathrooms"]').value) || null;
+
+        const rows = document.querySelectorAll("#propertyTable tbody tr");
+
+        rows.forEach(row => {
+            const price = parseFloat(row.children[1].textContent.replace(/[^0-9.]/g, '')) || 0;
+            const beds = parseInt(row.children[3].textContent) || 0;
+            const baths = parseInt(row.children[4].textContent) || 0;
+
+            const matchesPrice = price >= minPrice && price <= maxPrice;
+            const matchesBeds = bedrooms === null || beds === bedrooms;
+            const matchesBaths = bathrooms === null || baths === bathrooms;
+
+            // Show the row if it matches all criteria, hide otherwise
+            row.style.display = (matchesPrice && matchesBeds && matchesBaths) ? '' : 'none';
+        });
+    }
+</script>
